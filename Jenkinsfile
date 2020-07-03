@@ -40,7 +40,7 @@ pipeline
 			steps
 			{
 				echo "Deployment"
-				sh 'sudo cp /var/lib/jenkins/workspace/AddressBookPipeline/target/addressbook.war /root/apache-tomcat/webapps'
+				sh 'sudo cp /var/lib/jenkins/workspace/AddressBookPipeline/target/addressbook.war /root/apache-tomcat/webapps/'
 				
 			}
 		}
